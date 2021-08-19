@@ -113,9 +113,9 @@ a:hover, a:active {
     z-index: 10;
 }
 
-.img-place > img {
+/*.img-place > img {
     width: 100%;height: auto;
-}
+}*/
 
 /* Overlay */
 .overlay {
@@ -354,6 +354,22 @@ a:hover, a:active {
 
 .bg-theme-purple {
     background-color: #6f42c1 !important;
+}
+
+.bg-theme-yellow {
+    background-color: #ffc107 !important;
+}
+
+.bg-theme-pink {
+    background-color: #e83e8c !important;
+}
+
+.fg-theme-yellow {
+    color: #ffc107 !important;
+}
+
+.fg-theme-pink {
+    color: #e83e8c !important;
 }
 
 .fg-theme-red {
@@ -1423,4 +1439,21 @@ a:hover, a:active {
 
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
+}
+
+.profile-picture{
+    width: 100%;
+    height: 350px;
+    object-position: center;
+    object-fit: cover;
+}
+.profile-navbutton{
+    position: relative;
+}
+.profile-navbutton li{
+    position: absolute;
+    top: -22px;
+}
+.profile-navbutton .dropdown-toggle::after{
+    display: none;
 }

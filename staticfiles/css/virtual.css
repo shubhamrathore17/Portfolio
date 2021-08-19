@@ -356,6 +356,22 @@ a:hover, a:active {
     background-color: #6f42c1 !important;
 }
 
+.bg-theme-yellow {
+    background-color: #ffc107 !important;
+}
+
+.bg-theme-pink {
+    background-color: #e83e8c !important;
+}
+
+.fg-theme-yellow {
+    color: #ffc107 !important;
+}
+
+.fg-theme-pink {
+    color: #e83e8c !important;
+}
+
 .fg-theme-red {
     color: #ef3724 !important;
 }
