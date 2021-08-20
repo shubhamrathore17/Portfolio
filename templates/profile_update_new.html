@@ -234,7 +234,7 @@
                 <div class="col-md-5">
                     <div class="form-group">
                         <label class="text-none">Profile Pic<span class="required">*</span></label>
-                        <span>{{ form.profile_pic|add_class:"form-control"|attr:"required:true"|attr:"placeholder:Profile pic"}}  </span>   
+                        <span>{{ form.profile_pic|add_class:"form-control"|attr:"placeholder:Profile pic"}}  </span>   
                         {% if form.profile_pic.errors %}
                         <h style="font-size:16px;color:red">{{ form.profile_pic.errors }} </h>
                         {%endif%}

@@ -21,4 +21,4 @@ class Profile(BaseModel):
     live_in = models.CharField(max_length=50)
     age = models.CharField(max_length=50)
     gender = models.CharField(max_length=50)
-    profile_pic = models.ImageField(upload_to='profile_pictures')
+    profile_pic = models.ImageField(upload_to='profile_pictures',blank=True,  null=True)
