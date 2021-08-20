@@ -7,9 +7,6 @@ class BaseModel(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, db_index=True)
     modified_at = models.DateTimeField(auto_now=True, db_index=True)
 
-        
-    class Meta:
-        abstract = True
 
 class Profile(BaseModel):
     first_name = models.CharField(max_length=50)
